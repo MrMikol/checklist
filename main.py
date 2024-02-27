@@ -5,3 +5,6 @@ response = requests.get("https://github.com/paritytech/polkadot-sdk/releases/lat
 polkadot = response.url.split("/").pop()
 
 print(polkadot)
+
+f = open('output.txt', 'a')
+f.write(polkadot)
