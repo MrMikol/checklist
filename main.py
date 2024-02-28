@@ -1,20 +1,28 @@
 import requests
 import datetime
 
-#print(polkadot)
 
-#f = open('output.txt', 'a')
-#f.write(polkadot)
-
-github = ["https://github.com/paritytech/polkadot-sdk/releases/latest", "https://github.com/prysmaticlabs/prysm/releases/latest", "https://github.com/rocket-pool/smartnode-install/releases/latest", "https://github.com/ethereum/go-ethereum/releases/latest"]
+github = []
 date = datetime.datetime.now()
+
+with open('links.txt', 'r') as file:
+    github = file.read().splitlines()
+
+f = open('Versions today.txt', 'w')
 
 def printVersions(github, date):
     f.write(str(date.strftime("%x")) + '\n')
-    response = requests.get(github[0])
-    polkadot = response.url.split("/").pop()
+    i = 0
+    for version in github:
+        response = requests.get(github[0])
+        name1 = response.url.split("/").pop(3)
+        name2 = response.url.split("/").pop(4)
+        version = response.url.split("/").pop()
 
-    f = open('output.txt', 'w')
-    f.write("The latest version of Polkadot is " + polkadot)
+        f.write("Chain: " + str(name1) + " " + str(name2) + "\n")
+        f.write("Latest version: " + str(version) + "\n")
+        f.write("\n")
+
+        i += 1
 
 printVersions(github, date)
