@@ -14,7 +14,7 @@ def printVersions(github, date):
     f.write(str(date.strftime("%x")) + '\n')
     i = 0
     for version in github:
-        response = requests.get(github[0])
+        response = requests.get(github[i])
         name1 = response.url.split("/").pop(3)
         name2 = response.url.split("/").pop(4)
         version = response.url.split("/").pop()

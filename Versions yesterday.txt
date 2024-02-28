@@ -1,0 +1,100 @@
+02/28/24
+Chain: rocket-pool smartnode-install
+Latest version: v1.11.8
+
+Chain: InvArch InvArch-Node
+Latest version: v1.1.1-InvArch
+
+Chain: mangata-finance mangata-node
+Latest version: v0.33.0
+
+Chain: persistenceOne persistence-sdk
+Latest version: v2.1.1
+
+Chain: paritytech polkadot-sdk
+Latest version: polkadot-v1.7.2
+
+Chain: bitgreen bitgreen-node
+Latest version: v1.2.1
+
+Chain: LibertyDSNP frequency
+Latest version: v1.10.0
+
+Chain: KILTprotocol kilt-node
+Latest version: 1.12.1
+
+Chain: AstarNetwork Astar
+Latest version: v5.32.1
+
+Chain: AcalaNetwork Acala
+Latest version: 2.23.0
+
+Chain: Polimec polimec-node
+Latest version: v0.4.0
+
+Chain: centrifuge centrifuge-chain
+Latest version: v0.10.35
+
+Chain: ComposableFi composable
+Latest version: release-v9.10045.0
+
+Chain: galacticcouncil Basilisk-node
+Latest version: v16.0.0
+
+Chain: quicksilver-zone quicksilver
+Latest version: v1.4.7
+
+Chain: CosmosContracts juno
+Latest version: v20.0.0
+
+Chain: evmos evmos
+Latest version: v16.0.3
+
+Chain: archway-network archway
+Latest version: v6.0.1
+
+Chain: PeggyJV sommelier
+Latest version: v7.0.1
+
+Chain: status-im nimbus-eth2
+Latest version: v24.2.2
+
+Chain: prysmaticlabs prysm
+Latest version: v5.0.0
+
+Chain: ethereum go-ethereum
+Latest version: v1.13.14
+
+Chain: hyperledger besu
+Latest version: 24.1.2
+
+Chain: availproject avail
+Latest version: v1.11.0.0
+
+Chain: ava-labs avalanchego
+Latest version: v1.11.1
+
+Chain: lukso-network lsp-smart-contracts
+Latest version: lsp-smart-contracts-v0.14.0
+
+Chain: gear-foundation dapps
+Latest version: v1.1.0
+
+Chain: AleoHQ sdk
+Latest version: v0.5.5
+
+Chain: grafana grafana
+Latest version: v10.3.3
+
+Chain: threshold-network token-dashboard
+Latest version: latest
+
+Chain: interlay interbtc
+Latest version: 1.25.4
+
+Chain: near nearcore
+Latest version: 1.36.5
+
+Chain: prometheus prometheus
+Latest version: v2.50.1
+
